@@ -232,29 +232,28 @@ a mesma é falsa, duvidosa ou verdadeira.
 |Organização |  Trello | https://trello.com/b/Oj4S2FOz/fake-news-t3-g6 | 
 |Testes |  Mocha.js | (https://mochajs.org/) | 
 
-Outras tecnologias utilizadas:
+Outras tecnologias ainda utilizadas durante as sprints 2, 3 e 4:
  
  - Editor de código: VS code.
- - Ferramentas de comunicação: WhatsApp, Discord, Microsoft Teams.
- - Ferramentas de diagramação: Figma, Miro
+ - Tecnologias de comunicação: WhatsApp, Discord, Microsoft Teams.
+ - Tecnologias de diagramação: Figma
+ - Tecnologia de organização: Trello
+ - Tecnologia de teste: Mocha.js
  
- O editor de código foi escolhido pela equipe por ser um programa acessivel 
- para qualquer sistema operacional, de fácil utilzação e por ser um progama
- leve. Os meios de comunicação foram escolhidos pela equipe já possuir uma 
- grande afinidade com todos. Utilizamos o miro para o processo de design 
- Thinkgin por sugestão dos professores. Por fim, para criar o protótipo interativo 
- utilizamos o Figma por melhor captar as necessidades da nossa solução.
+ O Mocha.js foi utilizado visando a realização de testes de maneira simples,
+ tendo em vista a inexperiência de alguns membros do grupo que necessitam de
+ auxílio em relação à JavaScript.
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
+O diagrama a seguir demonstra os módulos, que utilizam as tecnologias HTML, CSS,
+JavaScript para a criação da página, a ferramenta Replit para a hospedagem do
+site e a base de dados armazenada em Json tendo em vista a entrada de dados
+através do login e cadastro de usuários e notícias.
+ 
+> **Diagrama de Arquitetura**:
 > 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+> ![Arquitetura](images/arquitetura.png)
 
 
 # Avaliação da Aplicação
