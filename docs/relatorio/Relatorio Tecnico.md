@@ -1,7 +1,7 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+`CONFIA!`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Site de verificação e cadastro de notícias para determinar se elas são verdadeiras ou não.
 
 `CURSO` 
 
@@ -219,24 +219,31 @@ utizamos o Trello Para organização e distribuição das tarefas do projeto.
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A solução criada foi um site de cadastro e verificação de notícias, em
+que o usuário cadastra a matéria de seu site e o jornalista determina se
+a mesma é falsa, duvidosa ou verdadeira.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+| Tecnologia  | Plataforma              |Link de Acesso |
+|-----------|-------------------------|---------------|
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-tiaw-fake-news-grupo-6 | 
+|Wireframes |  Figma | https://www.figma.com/file/1eI3q7wrR2CUJONs0MOvrp/Fake-News?node-id=0%3A1 | 
+|Organização |  Trello | https://trello.com/b/Oj4S2FOz/fake-news-t3-g6 | 
+|Testes |  Mocha.js | (https://mochajs.org/) | 
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+Outras tecnologias utilizadas:
+ 
+ - Editor de código: VS code.
+ - Ferramentas de comunicação: WhatsApp, Discord, Microsoft Teams.
+ - Ferramentas de diagramação: Figma, Miro
+ 
+ O editor de código foi escolhido pela equipe por ser um programa acessivel 
+ para qualquer sistema operacional, de fácil utilzação e por ser um progama
+ leve. Os meios de comunicação foram escolhidos pela equipe já possuir uma 
+ grande afinidade com todos. Utilizamos o miro para o processo de design 
+ Thinkgin por sugestão dos professores. Por fim, para criar o protótipo interativo 
+ utilizamos o Figma por melhor captar as necessidades da nossa solução.
 
 ## Arquitetura da solução
 
@@ -252,53 +259,40 @@ utizamos o Trello Para organização e distribuição das tarefas do projeto.
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+ Durante a aplicação, os cenários utilizados foram o de login e cadastro
+ do usuário, cadastro de notícias e verficiação das notícias por meio de
+ IDs. Os requisitos foram satisfeitos de acordo com a necessidade dos testes
+ e a aplicação foi um sucesso durante as Sprints 2 e 3.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ O teste da caixa cinza foi utilizado, teste que avaliou os aspectos internos
+ e externos do cógigo, principalmente na parte de login e cadastro de acordo
+ com o fluxo de dados.
+ O teste de regressão foi útil para evitar erros recorrentes durante a alteração
+ de versão do software.
+ O teste de usabilidade apresentou as maiores dificuldades dos usuários em relação
+ ao site.
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+O primeiro teste determinou que as páginas de login e cadastro tanto do usuário
+quanto das notícias estavam funcionais, assim, o primeiro esqueleto do site foi
+construído.
+O teste de regressão auxiliou para que os erros das versões anteriores não se
+repetissem durante o processo de desenvolvimento.
+O teste de usabilidade apresentou unanimidade relacionada aos IDs das notícias.
+Os usuários tinham dificuldade em compreender quais IDs eram de quais notícias.
+Depois da página ADM ser adicionada, grande parte das dúvidas foram sanadas. Nas
+próxima iterações, o grupo deverá apresentar novos testes para criar feeds dinâmicos
+e tutoriais claros e objetivos a cerca da utilização do site.
 
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+As referências utilizadas foram a norma ABNT, os sites recomendados pelos professores
+durante as sprints e as aulas de Desenvolvimento de Interfaces Web.
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
 > - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
